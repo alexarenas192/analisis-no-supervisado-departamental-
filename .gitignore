@@ -1,0 +1,24 @@
+# Archivos y carpetas de Python
+__pycache__/
+*.pyc
+*.pyd
+*.so
+*.egg
+*.egg-info/
+
+# Archivos de Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Archivos de logs y temporales
+*.log
+*.tmp
+
+# Archivos de entorno
+.env
+venv/
+
+# Ignorar resultados si se regeneran
+# Si quieres que Git los ignore si ya los subiste, puedes agregar:
+# *.png
+# *.csv
